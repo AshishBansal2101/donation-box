@@ -84,6 +84,7 @@ const NewProduct = ({ history }) => {
       <MetaData title="Create Product" />
       <div className="dashboard">
         {/* <SideBar /> */}
+
         <div className="newProductContainer">
           <form
             className="createProductForm"
@@ -91,6 +92,8 @@ const NewProduct = ({ history }) => {
             onSubmit={createProductSubmitHandler}
           >
             <h1>Request Donation</h1>
+            <div className="wave"></div>
+            <div className="wave"></div>
 
             <div>
               <SpellcheckIcon />
@@ -161,7 +164,7 @@ const NewProduct = ({ history }) => {
                 <img key={index} src={image} alt="Product Preview" />
               ))}
             </div> */}
-
+            <div className="wave"></div>
             <Button
               id="createProductBtn"
               type="submit"
@@ -170,6 +173,7 @@ const NewProduct = ({ history }) => {
               Create
             </Button>
           </form>
+          {/* <div className="wave"></div> */}
         </div>
       </div>
     </Fragment>

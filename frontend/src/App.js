@@ -6,6 +6,7 @@ import WebFont from "webfontloader";
 import React from "react";
 import Footer from "./component/layout/Footer/Footer";
 import Home from "./component/Home/Home";
+import whyDonate from "./component/Home/whyDonate";
 import ProductDetails from "./component/Product/ProductDetails";
 import Products from "./component/Product/Products";
 import GiveBook from "./component/Hardbook/GiveBook";
@@ -49,6 +50,7 @@ import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
 import NotFound from "./component/layout/Not Found/NotFound";
 
+// import "antd/dist/antd.css";
 function App() {
   const { isAuthenticated, user } = useSelector((state) => state.user);
 
@@ -140,6 +142,8 @@ function App() {
           component={AllGiveBook}
         />
 
+        <ProtectedRoute exact path="/why/donate" component={whyDonate} />
+
         <ProtectedRoute
           isAdmin={true}
           exact
@@ -154,7 +158,7 @@ function App() {
         />
         <Route
           exact
-          path="/admin/product"
+          path="/donation/new"
           isAdmin={true}
           component={NewProduct}
         />
@@ -200,8 +204,6 @@ function App() {
           }
         />
       </Switch>
-
-      <Footer />
     </Router>
   );
 }

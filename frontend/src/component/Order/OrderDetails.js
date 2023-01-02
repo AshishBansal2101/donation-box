@@ -32,9 +32,9 @@ const OrderDetails = ({ match }) => {
           <div className="orderDetailsPage">
             <div className="orderDetailsContainer">
               <Typography component="h1">
-                Order #{order && order._id}
+                Donation #{order && order._id}
               </Typography>
-              <Typography>Shipping Info</Typography>
+              <Typography>Address Info</Typography>
               <div className="orderDetailsContainerBox">
                 <div>
                   <p>Name:</p>
@@ -78,7 +78,7 @@ const OrderDetails = ({ match }) => {
                 </div>
               </div>
 
-              <Typography>Order Status</Typography>
+              <Typography>Donation Status</Typography>
               <div className="orderDetailsContainerBox">
                 <div>
                   <p
@@ -94,7 +94,7 @@ const OrderDetails = ({ match }) => {
               </div>
             </div>
 
-            <div className="orderDetailsCartItems">
+            {/* <div className="orderDetailsCartItems">
               <Typography>Order Items:</Typography>
               <div className="orderDetailsCartItemsContainer">
                 {order.orderItems &&
@@ -111,7 +111,7 @@ const OrderDetails = ({ match }) => {
                     </div>
                   ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </Fragment>
       )}

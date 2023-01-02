@@ -24,3 +24,18 @@ input[type="number"] {
 .redColor {
   color: red !important;
 }
+
+.bhead {
+  border: none;
+}
+.btn-7 {
+  text-decoration: none;
+}
+
+.hmbk {
+  color: white;
+}
+
+.hmbk1 {
+  color: rgb(96, 93, 93);
+}

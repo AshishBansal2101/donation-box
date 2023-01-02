@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d15a35b.chunk.css",
+    "main.js": "/static/js/main.0bfcba64.chunk.js",
+    "main.js.map": "/static/js/main.0bfcba64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff5b8ea4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff5b8ea4.js.map",
+    "static/css/2.2bc29066.chunk.css": "/static/css/2.2bc29066.chunk.css",
+    "static/js/2.7d141ee5.chunk.js": "/static/js/2.7d141ee5.chunk.js",
+    "static/js/2.7d141ee5.chunk.js.map": "/static/js/2.7d141ee5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2bc29066.chunk.css.map": "/static/css/2.2bc29066.chunk.css.map",
+    "static/css/main.3d15a35b.chunk.css.map": "/static/css/main.3d15a35b.chunk.css.map",
+    "static/js/2.7d141ee5.chunk.js.LICENSE.txt": "/static/js/2.7d141ee5.chunk.js.LICENSE.txt",
+    "static/js/main.0bfcba64.chunk.js.LICENSE.txt": "/static/js/main.0bfcba64.chunk.js.LICENSE.txt",
+    "static/media/Profile.697fdcd2.png": "/static/media/Profile.697fdcd2.png",
+    "static/media/avatar1.c0859a33.jpg": "/static/media/avatar1.c0859a33.jpg",
+    "static/media/whyDonate.css": "/static/media/info-card-3.e73b3934.jpg",
+    "static/media/info-card-1.9dbf7537.jpg": "/static/media/info-card-1.9dbf7537.jpg",
+    "static/media/logo-atlassian.7db5f0dd.svg": "/static/media/logo-atlassian.7db5f0dd.svg",
+    "static/media/logo-invision.9914cf42.svg": "/static/media/logo-invision.9914cf42.svg",
+    "static/media/logo-jira.a0d23481.svg": "/static/media/logo-jira.a0d23481.svg",
+    "static/media/logo-shopify.98e3f7cf.svg": "/static/media/logo-shopify.98e3f7cf.svg",
+    "static/media/logo-slack.cd48b339.svg": "/static/media/logo-slack.cd48b339.svg",
+    "static/media/logo-spotify.329bc760.svg": "/static/media/logo-spotify.329bc760.svg",
+    "static/media/logo.5b2e2004.png": "/static/media/logo.5b2e2004.png",
+    "static/media/team-1.c821a273.jpg": "/static/media/team-1.c821a273.jpg",
+    "static/media/team-2.e725aef8.jpg": "/static/media/team-2.e725aef8.jpg",
+    "static/media/team-3.b75146da.jpg": "/static/media/team-3.b75146da.jpg",
+    "static/media/team-4.a1e1c29f.jpg": "/static/media/team-4.a1e1c29f.jpg",
+    "static/media/web1.1884d954.jpg": "/static/media/web1.1884d954.jpg",
+    "static/media/web2.7118be40.jpg": "/static/media/web2.7118be40.jpg",
+    "static/media/web3.ca4fd0d1.webp": "/static/media/web3.ca4fd0d1.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff5b8ea4.js",
+    "static/css/2.2bc29066.chunk.css",
+    "static/js/2.7d141ee5.chunk.js",
+    "static/css/main.3d15a35b.chunk.css",
+    "static/js/main.0bfcba64.chunk.js"
+  ]
+}

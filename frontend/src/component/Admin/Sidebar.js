@@ -16,7 +16,10 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Link to="/">
-        <img src={logo} alt="donationBox" />
+        <img
+          src="https://www.freshersnow.com/wp-content/uploads/2019/09/DCRUST-Date-Sheet.png"
+          alt="donationBox"
+        />
       </Link>
       <Link to="/admin/dashboard">
         <p>

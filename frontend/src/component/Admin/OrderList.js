@@ -50,26 +50,19 @@ const OrderList = ({ history }) => {
   }, [dispatch, alert, error, deleteError, history, isDeleted]);
 
   const columns = [
-    { field: "id", headerName: "Order ID", minWidth: 300, flex: 1 },
+    { field: "id", headerName: "Donation ID", minWidth: 300, flex: 1 },
 
-    {
-      field: "status",
-      headerName: "Status",
-      minWidth: 150,
-      flex: 0.5,
-      cellClassName: (params) => {
-        return params.getValue(params.id, "status") === "Delivered"
-          ? "greenColor"
-          : "redColor";
-      },
-    },
-    {
-      field: "itemsQty",
-      headerName: "Items Qty",
-      type: "number",
-      minWidth: 150,
-      flex: 0.4,
-    },
+    // {
+    //   field: "status",
+    //   headerName: "Status",
+    //   minWidth: 150,
+    //   flex: 0.5,
+    //   cellClassName: (params) => {
+    //     return params.getValue(params.id, "status") === "Delivered"
+    //       ? "greenColor"
+    //       : "redColor";
+    //   },
+    // },
 
     {
       field: "amount",
@@ -89,9 +82,9 @@ const OrderList = ({ history }) => {
       renderCell: (params) => {
         return (
           <Fragment>
-            <Link to={`/admin/order/${params.getValue(params.id, "id")}`}>
+            {/* <Link to={`/admin/order/${params.getValue(params.id, "id")}`}>
               <EditIcon />
-            </Link>
+            </Link> */}
 
             <Button
               onClick={() =>
@@ -112,9 +105,9 @@ const OrderList = ({ history }) => {
     orders.forEach((item) => {
       rows.push({
         id: item._id,
-        itemsQty: item.orderItems.length,
+        // itemsQty: item.orderItems.length,
         amount: item.totalPrice,
-        status: item.orderStatus,
+        // status: item.orderStatus,
       });
     });
 
@@ -125,7 +118,7 @@ const OrderList = ({ history }) => {
       <div className="dashboard">
         <SideBar />
         <div className="productListContainer">
-          <h1 id="productListHeading">ALL ORDERS</h1>
+          <h1 id="productListHeading">All Donations</h1>
 
           <DataGrid
             rows={rows}

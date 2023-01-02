@@ -20,7 +20,7 @@ const Dashboard = () => {
   const { giveBook } = useSelector((state) => state.giveBook);
   const { wantBook } = useSelector((state) => state.wantBook);
 
-  console.log("dsd", wantBook);
+  // console.log("dsd", wantBook);
   const { orders } = useSelector((state) => state.allOrders);
 
   const { users } = useSelector((state) => state.allUsers);
@@ -49,7 +49,7 @@ const Dashboard = () => {
     });
 
   const lineState = {
-    labels: ["Initial Amount", "Amount Earned"],
+    labels: ["Initial Donations", "Amount Reached"],
     datasets: [
       {
         label: "TOTAL AMOUNT",
@@ -60,13 +60,14 @@ const Dashboard = () => {
     ],
   };
 
+  // console.log("daaa", x);
   const doughnutState = {
-    labels: ["Out of Stock", "InStock"],
+    labels: ["Book Requests", "Donations"],
     datasets: [
       {
         backgroundColor: ["#00A6B4", "#6800B4"],
         hoverBackgroundColor: ["#4B5000", "#35014F"],
-        data: [outOfStock, products.length - outOfStock],
+        data: [wantBook.length, giveBook.length],
       },
     ],
   };
@@ -82,7 +83,7 @@ const Dashboard = () => {
         <div className="dashboardSummary">
           <div>
             <p>
-              Total Amount <br />₹{totalAmount}
+              Total Donations <br />₹{totalAmount}
             </p>
           </div>
           <div className="dashboardSummaryBox2">
