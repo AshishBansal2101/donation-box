@@ -130,7 +130,7 @@ function Footer() {
                   rel="noopener"
                   href="https://github.com/techhash"
                 >
-                  Ashwini Gupta
+                  Ashwani Gupta
                 </a>
                 <span> - </span>
                 <span>Data Science Developer</span>
