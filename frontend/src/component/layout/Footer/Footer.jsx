@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
-// import "./Footer.css";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -112,6 +112,28 @@ function Footer() {
                 </a>
                 <span> - </span>
                 <span>Software Developer</span>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://github.com/hardikgarg2002"
+                >
+                  Hardik Garg
+                </a>
+                <span> - </span>
+                <span>Full Stack Developer</span>
+              </div>
+              <div>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://github.com/techhash"
+                >
+                  Ashwini Gupta
+                </a>
+                <span> - </span>
+                <span>Data Science Developer</span>
               </div>
             </div>
           </Col>
