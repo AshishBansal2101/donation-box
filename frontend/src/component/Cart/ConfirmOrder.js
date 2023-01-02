@@ -39,7 +39,7 @@ const ConfirmOrder = ({ history }) => {
       <div className="confirmOrderPage">
         <div>
           <div className="confirmshippingArea">
-            <Typography>Shipping Info</Typography>
+            <Typography>Address Info</Typography>
             <div className="confirmshippingAreaBox">
               <div>
                 <p>Name:</p>
@@ -78,7 +78,7 @@ const ConfirmOrder = ({ history }) => {
         {/* */}
         <div>
           <div className="orderSummary">
-            <Typography>Order Summary</Typography>
+            <Typography>Donation Summary</Typography>
             <div>
               <div>
                 <p>Subtotal:</p>
@@ -96,10 +96,6 @@ const ConfirmOrder = ({ history }) => {
                 />
               </div>
 
-              <div>
-                <p>Shipping Charges:</p>
-                {/* <span>₹{shippingCharges}</span> */}
-              </div>
               <div>
                 <p>GST:</p>
                 {/* <span>₹{tax}</span> */}

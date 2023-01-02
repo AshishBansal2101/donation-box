@@ -19,7 +19,7 @@ const MyOrders = () => {
   const { user } = useSelector((state) => state.user);
 
   const columns = [
-    { field: "id", headerName: "Order ID", minWidth: 300, flex: 1 },
+    { field: "id", headerName: "Donation ID", minWidth: 300, flex: 1 },
 
     // {
     //   field: "status",
@@ -87,7 +87,7 @@ const MyOrders = () => {
 
   return (
     <Fragment>
-      <MetaData title={`${user.name} - Orders`} />
+      <MetaData title={`${user.name} - Donations`} />
 
       {loading ? (
         <Loader />
